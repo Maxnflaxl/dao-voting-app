@@ -1,5 +1,5 @@
 
-export const CID = '098c3009720876dbe8c73e6fc05fb7d2fda52e35c2131ad493c86d3e61cb88a6';
+export const CID = '8ecadf81c0446416c393bd3a3843693943057b26022e490c998759f827e6bb4a';
 export const GROTHS_IN_BEAM = 100000000;
 export const PROPOSALS = {
     CURRENT: 'current',
