@@ -416,7 +416,7 @@ const ProposalsList: React.FC<ListProps> = ({
 
         { type === PROPOSALS.CURRENT && 
             <StyledEpochTitle>
-                Epoch #{appParams.current.iEpoch} (current)
+                Epoch #{appParams.current.iEpoch - 1} (current)
             </StyledEpochTitle>
         }
 
