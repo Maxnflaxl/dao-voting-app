@@ -146,7 +146,7 @@ const DepositPopup: React.FC<DepositPopupProps> = ({ visible, onCancel }) => {
                 <Rate value={0.011} className='fee-rate'/>
             </FeeContainer>
             <InfoContainer>
-                <div>Depositing will increase your voting power in next epoch #{appParams.current.iEpoch + 1}</div>
+                <div>Depositing will increase your voting power in next epoch #{appParams.current.iEpoch}</div>
                 <div>({nextEpochDate})</div>
             </InfoContainer>
         </form>
