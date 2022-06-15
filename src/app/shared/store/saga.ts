@@ -21,7 +21,7 @@ export function remoteEventChannel() {
       "min_api_version": "6.2",
       "headless": false,
       "apiResultHandler": (error, result, full) => {
-        console.log('api result data: ', result, full);
+        console.log('api result data: ', result, full, error);
         if (!result.error) {
           emitter(full);
         }
