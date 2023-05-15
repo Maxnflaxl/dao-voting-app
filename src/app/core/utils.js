@@ -205,7 +205,7 @@ export default class Utils {
         }
 
         if (Utils.isWeb()) {
-            return BEAM.api.callWalletApi(callid, method, params);
+            return BEAM.api.callWalletApi(callid, method, params, InitParams["appname"]);
         } 
 
         if (Utils.isMobile()) {
